@@ -5,6 +5,7 @@ import morgan from "morgan";
 import dotenv from "dotenv";
 const app = express();
 
+//changes have been made
 
 dotenv.config()
 
@@ -16,7 +17,7 @@ const db = mysql.createConnection({
   user: process.env.DB_USERNAME,
   password: process.env.DB_PASSWORD,
   port: process.env.PORT,
-  database: "TEST",
+  database: "TEST12312312`",
 });
 
 app.get("/", (req, res) => {
